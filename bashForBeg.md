@@ -12,6 +12,7 @@
 
 * Connects the output of one command to the input of another command
 * Example: Should fire the `BEL` sound
+
     echo "0x07" | xxd -r 
 
 ## Paths

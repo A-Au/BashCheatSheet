@@ -11,9 +11,7 @@
 ## Pipes
 
 * Connects the output of one command to the input of another command
-* Example: Should fire the `BEL` sound
-
-    echo "0x07" | xxd -r 
+* Example: `echo "0x07" | xxd -r` - This should fire the `BEL` sound
 
 ## Paths
 
@@ -27,9 +25,7 @@
 
 * Always points to the same location, does not depend on the current working directory
 * Always start from the root
-* Example:
-
-    /usr/local/opt/jenv/shims/java
+* Example: `/usr/local/opt/jenv/shims/java`
 
 * Note: `~` is also an absolute path as it is substituted with the absolute path to the home directory in execution
 
@@ -40,9 +36,7 @@
 * `..` - represents parent directory
 * `.` - represents current directory
 * Example: 
-  * Currently in `/foo/bar/` but want to access `/foo/notinbar.txt`, could just use the absolute path or
-
-    ../notinbar.txt
+  * Currently in `/foo/bar/` but want to access `/foo/notinbar.txt`, could just use the absolute path or `../notinbar.txt`
 
 ## General Bash Commands
 
@@ -58,7 +52,7 @@
 `grep <regex> <file(s)>` | Lists all files that has matching for `<regex>`
 `grep <regex>` | Returns the line from `stdin` that matches `<regex>`
 `kill -9 <PID>` | Kills the process associated with `<PID>` with signal `9`
-`ln -s <pathToApp> /usr/local/bin/<name>` | Creates 
+`ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl` | Creates a symbolic link to open Sublime Text from the terminal
 `ls` | List all non-hidden files in current working directory
 `ls -a` | List all files
 `ls -l` | List using long listing format
@@ -72,7 +66,7 @@
 `rm -rf <dir>` | Recursively remove `<dir>` and all of the files within it
 `sudo <cmd>` | Allows you to run `<cmd>` with root (superuser) security privileges
 `sudo -u <usr> <cmd>` | Allows you to run `<cmd>` as `<usr>`
-
+`touch <file(s)>` | Updates last editted date of `<file(s)>` to current time
 
 
 ## Basic Git Commands
@@ -93,8 +87,8 @@ Note: may differ slightly between different versions of git
 `git commit -m "<message>"` | Commits the changes to the repo with your message, please make these messages meaningful instead of some sort of gibberish or some nonsense like "test1", "test2", ...
 `git push` | Push commit to repo
 `git tag <tag>` | Tags the last commit with `<tag>`
-`git tag -d <tag>` <br />
-`git push origin :refs/tags/<tag>` | Deletes `<tag>`
+`git tag -d <tag>` | Deletes `<tag>`
+`git push origin :refs/tags/<tag>` | Pushes the delete to the repo
 `git push --tags` | Pushes tags to repo
 `git reset` | Resets to an uncommitted state
 `git reset --hard` | Resets and reverts all changes made to tracked files

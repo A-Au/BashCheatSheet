@@ -50,6 +50,7 @@
 `cp <src> <dest>` | Copies file(s) from `<src>` to `<dest>`
 `diff <file1> <file2>` | Shows the difference between `<file1>` and `<file2>`
 `emacs <file(s)>` | Opens `<file(s)>` in the emacs text editor
+`export <varname>=<value>` | Defines an enviroment variable
 `find <dir> -name <filename>` | Finds all files named `<filename>` in `<dir>`
 `grep <regex> <file(s)>` | Lists all files that has matching for `<regex>`
 `grep <regex>` | Returns the line from `stdin` that matches `<regex>`

@@ -70,6 +70,7 @@
 `sudo -u <usr> <cmd>` | Allows you to run `<cmd>` as `<usr>`
 `touch <file(s)>` | Updates last editted date of `<file(s)>` to current time
 `vi <file(s)>` | Opens `<file(s)>` in the vim text editor
+`vim <file(s)>` | Opens `<file(s)>` in the vim text editor (same as above)
 
 
 ## Basic Git Commands

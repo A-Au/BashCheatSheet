@@ -42,6 +42,7 @@
 
 *Command* | *Description*
 ---- | ---
+`cat <file(s)>` | Returns the contents of `<file(s)>` to `stdout`
 `cd <path>` | Change working directory to `<path>`
 `cd`  | Change working directory to home directory
 `cd ~` | Change working directory to home directory
@@ -60,6 +61,7 @@
 `ls <path>` | Lists non-hidden files in `<path>`
 `man <cmd>` | Opens the manual for `<cmd>`
 `mv <src> <dest>` | Moves file(s) from `<src>` to `<dest>`, can also be used to rename files
+`nano <file(s)>` | Opens `<file(s)>` in the nano text editor
 `pwd` | Returns the present (current) working directory
 `ps -ef` | Shows all running processes in full
 `rm <file(s)>` | Removes files
@@ -67,6 +69,7 @@
 `sudo <cmd>` | Allows you to run `<cmd>` with root (superuser) security privileges
 `sudo -u <usr> <cmd>` | Allows you to run `<cmd>` as `<usr>`
 `touch <file(s)>` | Updates last editted date of `<file(s)>` to current time
+`vi <file(s)>` | Opens `<file(s)>` in the vim text editor
 
 
 ## Basic Git Commands

@@ -12,6 +12,8 @@
 
 * Connects the output of one command to the input of another command
 * Example: `echo "0x07" | xxd -r` - This should fire the `BEL` sound
+  * This pipes the output from `echo` to `xxd -r`
+  * Or in other words, the `stdput` from `echo "0x07"` is fed into the `stdin` of `xxd -r`
 
 ## Paths
 

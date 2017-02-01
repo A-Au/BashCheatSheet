@@ -72,6 +72,7 @@
 `ps -ef` | Shows all running processes in full
 `rm <file(s)>` | Removes files
 `rm -rf <dir>` | Recursively remove `<dir>` and all of the files within it
+`ssh <user>@<host>` | Connects `<user>` to `<host>`, allows you to use `<host>` via the terminal
 `sudo <cmd>` | Allows you to run `<cmd>` with root (superuser) security privileges
 `sudo -u <usr> <cmd>` | Allows you to run `<cmd>` as `<usr>`
 `touch <file(s)>` | Updates last editted date of `<file(s)>` to current time

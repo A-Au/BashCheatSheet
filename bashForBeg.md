@@ -76,6 +76,7 @@
 ## Basic Git Commands
 Note: may differ slightly between different versions of git
 *Command* | *Description*
+---|---
 `git clone <repo>` | Clones `<repo>` into the current working directory
 `git checkout <branch>` | Checkout `<branch>` to work on
 `git checkout -b <branch>` | Checkout and create the branch `<branch>`

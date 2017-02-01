@@ -59,7 +59,7 @@
 `ls -al` | List all using long listing format
 `ls <path>` | Lists non-hidden files in `<path>`
 `man <cmd>` | Opens the manual for `<cmd>`
-`mv <src> <dest>` | Moves file(s) from `<src>` to `<dest>`
+`mv <src> <dest>` | Moves file(s) from `<src>` to `<dest>`, can also be used to rename files
 `pwd` | Returns the present (current) working directory
 `ps -ef` | Shows all running processes in full
 `rm <file(s)>` | Removes files

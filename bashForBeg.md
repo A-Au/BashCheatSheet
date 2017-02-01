@@ -8,7 +8,7 @@
   * Directories which can include other files/directories - mind blowing, I know
 * Files prepended with `.` are "hidden"
 
-## Pipes
+## Pipes `|`
 
 * Connects the output of one command to the input of another command
 * Example: `echo "0x07" | xxd -r` - This should fire the `BEL` sound

@@ -76,6 +76,7 @@
 
 ## Basic Git Commands
 Note: may differ slightly between different versions of git
+
 *Command* | *Description*
 --- | ---
 `git clone <repo>` | Clones `<repo>` into the current working directory
@@ -100,3 +101,4 @@ Note: may differ slightly between different versions of git
 `git clean -df` | Force removes all untracked files/directories"
 `git remote prune origin --dry-run` | Shows which branches would be pruned (removed)
 `git remote prune origin` | Prunes stale branches
+

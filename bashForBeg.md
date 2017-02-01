@@ -54,6 +54,7 @@
 `chmod <permssns> <file>` | Adds permissions `<pmssns>` to `<file>`
 `cp <src> <dest>` | Copies file(s) from `<src>` to `<dest>`
 `diff <file1> <file2>` | Shows the difference between `<file1>` and `<file2>`
+`find <dir> -name <filename>` |
 `grep <regex> <file(s)>` | Lists all files that has matching for `<regex>`
 `grep <regex>` | Returns the line from `stdin` that matches `<regex>`
 `kill -9 <PID>` | Kills the process associated with `<PID>` with signal `9`
@@ -89,10 +90,10 @@ Note: may differ slightly between different versions of git
 `git add *` | Adds all files and changes to commit
 `git diff` | Shows the differences between all of your local files and the files in the remote repo
 `git diff <file(s)>` | Shows the differences between your local copy of `<file(s)>` and the remote version
-`git commit -m "<message>" | Commits the changes to the repo with your message, please make these messages meaningful instead of some sort of gibberish or some nonsense like "test1", "test2", ...
+`git commit -m "<message>"` | Commits the changes to the repo with your message, please make these messages meaningful instead of some sort of gibberish or some nonsense like "test1", "test2", ...
 `git push` | Push commit to repo
 `git tag <tag>` | Tags the last commit with `<tag>`
-`git tag -d <tag>` <br>
+`git tag -d <tag>` <br />
 `git push origin :refs/tags/<tag>` | Deletes `<tag>`
 `git push --tags` | Pushes tags to repo
 `git reset` | Resets to an uncommitted state

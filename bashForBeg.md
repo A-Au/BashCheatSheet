@@ -65,6 +65,7 @@
 `ls -al` | List all using long listing format
 `ls <path>` | Lists non-hidden files in `<path>`
 `man <cmd>` | Opens the manual for `<cmd>`
+`mkdir <dir>` | Creates `<dir>`
 `mv <src> <dest>` | Moves file(s) from `<src>` to `<dest>`, can also be used to rename files
 `nano <file(s)>` | Opens `<file(s)>` in the nano text editor
 `pwd` | Returns the present (current) working directory

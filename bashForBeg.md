@@ -37,7 +37,7 @@
 * Does not need to include root, could include it but pointless to
 * `..` - represents parent directory
   * Parent directory is the directory that contains the current directory, i.e. the parent directory of `/foo/bar/home/` is `bar/`
-* `.` - represents current directory
+* `.` - represents current directory (the directory you are currently sitting in)
 * Example: 
   * Currently in `/foo/bar/` but want to access `/foo/notinbar.txt`, could just use the absolute path or `../notinbar.txt`
 

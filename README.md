@@ -50,7 +50,9 @@
 `cd`  | Change working directory to home directory
 `cd ~` | Change working directory to home directory
 `chmod <permssns> <file>` | Adds permissions `<pmssns>` to `<file>`
+`clear` | Clears the screen
 `cp <src> <dest>` | Copies file(s) from `<src>` to `<dest>`
+`curl '<url>'` |  Transfers the contents from `<url>` to stdout
 `diff <file1> <file2>` | Shows the difference between `<file1>` and `<file2>`
 `emacs <file(s)>` | Opens `<file(s)>` in the emacs text editor
 `export <varname>=<value>` | Defines an enviroment variable
@@ -78,6 +80,7 @@
 `touch <file(s)>` | Updates last editted date of `<file(s)>` to current time
 `vi <file(s)>` | Opens `<file(s)>` in the vim text editor
 `vim <file(s)>` | Opens `<file(s)>` in the vim text editor (same as above)
+`wget <url>` | Downloads the contents  at `<url>` to the current directory
 
 
 ## Basic Git Commands
